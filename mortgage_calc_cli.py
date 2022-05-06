@@ -1,14 +1,12 @@
 # mortgage_calc.py 
     
 """
-    A terminal-based program for amortizing and displaying loan payment information.
-    The program takes user input for loan amount, interest rate, 
-    loan term (in months) and optionally, homeowners insurance and property tax 
-    amounts, calculates both the principal and interest payment amount and total 
-    payment amount (if amounts for taxes and insurance are provided) and displays 
-    the result in a terminal panel. Further, the user is given the option to view a full 
-    amortization schedule and, if they chose to do so, are given the further option 
-    to save the amortization table (which is saved as a text file).
+    A command line interface (CLI) for calculating mortgage loan payment information.
+    The CLI uses three required positional arguments for loan amount, interest rate, 
+    and loan term (in months) as well as two optional arguments -i: Annual property
+    insurance premium; and -t: Annual property taxes. The module then calculates the
+    monthly principal and interest payment and displays the result (along with monthly
+    tax and insurance payments, if the optional arguments are entered).
     
     The module uses the `rich` library to format the output to the terminal, allowing
     easy customization of the presentation. In particular, the module uses the Table and 
