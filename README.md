@@ -16,18 +16,18 @@ my own function to decrease the number of dependencies.
 
 From the help screen 
 
-usage: mortgage_calc_cli.py [-h] [-t TAXES] [-i INSURANCE] loan interest term
+    usage: mortgage_calc_cli.py [-h] [-t TAXES] [-i INSURANCE] loan interest term
 
-A command line mortgage payment calculator
+    A command line mortgage payment calculator
 
-positional arguments:
-  loan                  Loan Amount
-  interest              Interest Rate
-  term                  Term of loan in months
+    positional arguments:
+    loan                  Loan Amount
+    interest              Interest Rate
+    term                  Term of loan in months
 
-options:
-  -h, --help            show this help message and exit
-  -t TAXES, --taxes TAXES
-                        Annual property tax
-  -i INSURANCE, --insurance INSURANCE
-                        Annual property insurance
+    options:
+    -h, --help            show this help message and exit
+    -t TAXES, --taxes TAXES
+                            Annual property tax
+    -i INSURANCE, --insurance INSURANCE
+                            Annual property insurance
